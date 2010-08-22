@@ -1,0 +1,240 @@
+/* Defaults - Load on all pages */
+
+body {
+	font-family:"Hoefler Text", Baskerville, Garamond, "Palatino Linotype", Georgia, "Times New Roman", serif;
+	font-size:16px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* Fixes IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* Fixes IE7 */
+
+hr {
+	clear:both;
+}
+
+/* Page Wrapper */
+
+div#page {
+	width:970px;
+	margin:auto;
+	padding:20px;
+	background-color:#f3f3f0;
+	min-height:1000px;
+}
+
+/* Header Styles */
+
+header {
+	float:left;
+}
+
+header h2 {
+	padding:10px 0;
+}
+
+header h1 {
+	font-size: 60px;
+	text-shadow:0px 1px 0 #ffffff;
+}
+
+header h1 a {
+	text-decoration:none;
+	color:#333333;
+}
+
+header h2 {
+	font-family: 'museo-1', 'museo-2';
+	font-size:1.2em;
+}
+
+nav a {
+	color:#000000;
+	text-decoration:none;
+	border-bottom:1px solid black;
+}
+
+nav a:hover {
+	color:#000000;
+	border-bottom:2px solid black;
+}
+
+nav {
+	float:right;
+	padding-top:10px;
+}
+
+nav ul {
+	display:block;
+}
+
+nav ul li {
+	float:left;
+	font-size:20px;
+	padding-left:20px;
+}
+
+/* End Header Styles */
+
+#main {
+	padding-top:20px;
+}
+
+/* ----END ---- */
+
+article {
+	float:left;
+	padding:20px 0;
+	width:290px;
+	padding:0 10px;
+}
+
+.date img{
+	vertical-align:middle;
+	padding-right:5px;
+}
+
+.post {
+	padding:8px 0;
+	text-align:left;
+}
+
+.summary {
+	line-height:1.7em;
+}
+
+.article {
+
+}
+
+.feature {
+	padding:10px;
+}
+
+a.title {
+	color:#000000;
+	text-decoration:none;
+	border-bottom:1px solid black;
+	line-height:1.5em;
+}
+
+a.title:hover {
+	color:#000000;
+	border-bottom:2px solid black;
+}
+
+a.tag {
+	display:block;
+	margin-right:10px;
+	margin-bottom:30px;
+	margin-top:10px;
+	float:left;
+	padding:8px;
+	background-color:white;
+	-moz-border-radius:15px;
+	-webkit-border-radius:12px;
+	cursor:pointer;
+}
+
+a.tag:hover {
+	background-color:#76A19D;
+	color:white;
+}
+
+footer {
+	display:none;
+}
+
+/* Styling for comments and comment form */
+
+.comments {
+	padding:20px 0;
+}
+
+.commentform {
+	width:500px;
+}
+
+.commentform p	{
+	padding:10px 0;
+}
+
+.commentform h2 {
+	padding:20px 0;
+}
+
+.commentform input, .commentform textarea {
+	border:1px solid #000000;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	padding:10px;
+	font-size:1.1em;
+	width:500px;
+	font-family:"Hoefler Text", Baskerville, Garamond, "Palatino Linotype", Georgia, "Times New Roman", serif;
+	font-size:16px;
+}
+
+.commentform input[type='submit'] {
+	width:150px;
+}
+
+.newPost {
+	display:none;
+}
+
+.confirm {
+	border:1px solid black;
+	padding:10px;
+}
+
+#about {
+	line-height:1.7em;
+	padding-top:30px;
+}
+
+#fourohfour {
+	font-size:200px;
+	text-align:center;
+	padding-top:36px;
+	text-shadow:20px 20px 0 white;
+	font-family: 'museo-1', 'museo-2';
+}
+
+#col-1 {
+	padding:10px;
+	text-align:left;
+	float:left;
+	width:30%;
+}
+
+#col-2 {
+	padding:10px;
+	text-align:left;
+	float:left;
+	width:30%;
+}
+
+#col-3 {
+	padding:10px;
+	text-align:left;
+	float:left;
+	width:30%;
+}
+
+
+
+
+
+
+
+
+
+
+
